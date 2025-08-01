@@ -3,3 +3,16 @@ CHECK VERSION: git --version
 ENTER NAME: git config --global user.name "Jethruel Aguilar"
 
 ENTER EMAIL: git config --global user.email "jethruel@gmail.com"
+
+SET EVERYTHING UP: git init
+
+SAVE CHANGES 1 FILE: git add index.html
+SAVE CHANGES 2 FILE OR MORE: git add index.html style.css xxxxx.js etc.
+SAVE ALL: git add .
+
+SAVE PROJ VERSION TO THE DEVICE: git commit -m "saving boilerplate code and text"
+
+MOVING SAVED  PROJ TO GITHUB
+    1. SETTING THINGS UP: git branch -M main
+    2. CONNECTING THE PROJ TO THE REPO: git remote add origin https://github.com/Truuuuuuuu/git-and-github-tutorial.git
+    3. PUSH THE PROJ TO REPO: git push -u origin main
