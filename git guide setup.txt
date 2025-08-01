@@ -1,0 +1,5 @@
+CHECK VERSION: git --version 
+
+ENTER NAME: git config --global user.name "Jethruel Aguilar"
+
+ENTER EMAIL: git config --global user.email "jethruel@gmail.com"
